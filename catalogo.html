@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Catálogo</title>
+</head>
+<body>
+<header class="site-header">
+  <div class="proveedor">
+    <img src="https://via.placeholder.com/64" alt="Logo">
+    <h1>Proveedor: TecnoVentas</h1>
+  </div>
+  <h2 class="subtitulo">CEO: Ernesto Urias Ruiz</h2>
+</header>
+
+<section class="catalogo">
+  <article class="producto"><h3>Laptop A</h3><p>14” FHD, 8GB RAM, 256GB SSD.</p><p class="precio">$12,999</p></article>
+  <article class="producto"><h3>Laptop B</h3><p>15.6” FHD, 16GB RAM, 512GB SSD.</p><p class="precio">$16,499</p></article>
+  <article class="producto"><h3>Monitor 24”</h3><p>IPS 1080p 75Hz.</p><p class="precio">$2,899</p></article>
+  <article class="producto"><h3>Monitor 27”</h3><p>QHD 144Hz.</p><p class="precio">$5,999</p></article>
+  <article class="producto"><h3>Teclado Mecánico</h3><p>Switch rojo, TKL.</p><p class="precio">$1,299</p></article>
+  <article class="producto"><h3>Mouse Gamer</h3><p>6 botones, 12k DPI.</p><p class="precio">$699</p></article>
+  <article class="producto"><h3>SSD 1TB</h3><p>NVMe Gen3.</p><p class="precio">$1,499</p></article>
+  <article class="producto"><h3>HDD 2TB</h3><p>3.5” 7200rpm.</p><p class="precio">$1,199</p></article>
+  <article class="producto"><h3>Headset</h3><p>7.1 virtual.</p><p class="precio">$899</p></article>
+  <article class="producto"><h3>Fuente 650W</h3><p>80+ Bronze.</p><p class="precio">$1,399</p></article>
+</section>
+
+<footer class="site-footer">
+  <p><span id="anio"></span> • Materia: Desarrollo Web ERNESTO URIAS RUIZ 2-2</p>
+  <p><a href="index.html">Volver</a></p>
+</footer>
+
+<script>
+document.getElementById("anio").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
